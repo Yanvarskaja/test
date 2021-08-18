@@ -5,7 +5,7 @@ fun main() {
     //  val commission = calculateCommission()
     println("Размер комиссии " + calculateCommission() + " руб.")
 }
-
+Изменение, ломающее сборку
 fun calculateCommission(
     type: PaymentType = PaymentType.VkPay,
     previousTransfer: Int = 1_000_000,
